@@ -87,9 +87,12 @@ select {
   width: 30%;
   height: 200px;
   background-color: lightgrey;
+  padding-left: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .risultato-left img {
