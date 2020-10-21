@@ -7,7 +7,15 @@
 .container {
   background-color: #b91450;
   width: 100%;
-  min-height: 600px;
+  height: 100vh;
+}
+
+header h1 {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
 }
 
 .container-uno {
@@ -23,6 +31,18 @@
   justify-content: space-around;
   padding-top: 3%;
   padding-bottom: 2%;
+}
+
+.container-info h3 {
+  color: #b91450;
+  text-align: center;
+}
+
+input[type="text"],
+select {
+  border-radius: 5px;
+  border: 1px solid #b91450;
+  padding: 5px 10px;
 }
 
 .container-bars {
@@ -55,7 +75,7 @@
   margin: 5% auto;
   width: 70%;
   min-height: 30%;
-  padding: 3%;
+  padding: 1% 3%;
 }
 
 .risultato-flex {
@@ -67,36 +87,35 @@
   width: 30%;
   height: 200px;
   background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .risultato-left img {
   height: 100px;
-  margin: auto;
+  align-self: center;
 }
 
 .risultato-right {
   width: 70%;
   height: 200px;
   background-color: white;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
 }
 
-.risultato-up {
-  display: flex;
-  justify-content: flex-start;
+.risultato-row {
+  float: left;
+  width: 25%;
 }
 
-.risultato-up h3 {
-  margin-left: 5%;
+.risultato-column:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.risultato-bottom {
-  display: flex;
-  justify-content: flex-start;
-  align-content: flex-end;
-}
-
-.risultato-bottom h3 {
-  margin-left: 5%;
+.risultato-column {
+  margin-top: 50px;
 }

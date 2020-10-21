@@ -36,3 +36,7 @@ genera.addEventListener("click",
         }
     })
 
+// annulla.addEventListener("click",
+// function(){
+//     document.getElementById("myForm").reset();
+// }
