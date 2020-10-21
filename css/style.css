@@ -5,7 +5,7 @@
 }
 
 .container {
-  background-color: deeppink;
+  background-color: #b91450;
   width: 100%;
   min-height: 600px;
 }
@@ -21,9 +21,29 @@
 .container-info {
   display: flex;
   justify-content: space-around;
+  padding-top: 3%;
+  padding-bottom: 2%;
 }
 
 .container-bars {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 4%;
+}
+
+.container-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#genera,
+#annulla {
+  margin: 2%;
+  border: 1px solid grey;
+  background-color: lightgrey;
+  padding: 10px;
+  color: #b91450;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 18px;
 }
