@@ -52,7 +52,51 @@
   display: none;
   background-color: white;
   border-radius: 20px;
-  margin: auto;
+  margin: 5% auto;
   width: 70%;
   min-height: 30%;
+  padding: 3%;
+}
+
+.risultato-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.risultato-left {
+  width: 30%;
+  height: 200px;
+  background-color: lightgrey;
+}
+
+.risultato-left img {
+  height: 100px;
+  margin: auto;
+}
+
+.risultato-right {
+  width: 70%;
+  height: 200px;
+  background-color: white;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.risultato-up {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.risultato-up h3 {
+  margin-left: 5%;
+}
+
+.risultato-bottom {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-end;
+}
+
+.risultato-bottom h3 {
+  margin-left: 5%;
 }

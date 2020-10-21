@@ -10,7 +10,7 @@ genera.addEventListener("click",
     function(){
         km=parseInt(document.getElementById("km").value)
         subtotale=(prezzoKm * km).toFixed(2)
-        document.getElementById("container-risultato").style.display = "inline"
+        document.getElementById("container-risultato").style.display = "block";
         if (eta.value==="minorenne"){
             var costoUno=(subtotale-((subtotale/100)*20)).toFixed(2)
             document.getElementById("costo").innerHTML=costoUno;
